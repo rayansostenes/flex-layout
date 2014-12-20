@@ -33,7 +33,8 @@ deste. Adicione opções de classes à seguir:
 
 
 ###flex-wrap
-Por padrão, os itens dentro de um flex container vão tentar se acondicionar em uma unica linha. Você pode mudar isto e permitir que os itens se acondicionem a varias linhas. você pode fazer isso adicionando as classes `.wrap` ou `.wrap-reverse` no seu container.
+Por padrão, os itens dentro de um flex container vão tentar se acondicionar em uma unica linha. Para alterar este comportamento e permitir que os itens se acondicionem em varias linhas adicione as classes `.wrap` ou `.wrap-reverse` no seu container.
+
 ![flex-wrap](http://css-tricks.com/wp-content/uploads/2014/05/flex-wrap.svg)
 
 ###justify-content
@@ -51,14 +52,13 @@ Essa propriedade define o alinhamento ao longo do eixo principal. Ajuda a distri
 
 ###align-items
 
-
 Essa propriedade define como os itens serão alinhados no eixo transversal do seu container. Por padrão os itens se alongam para preencher o container. Use as classes a seguir para definir um alinhamento alternativo.
 
 * `.start`: O itens ficam alinhados no inicio do eixo transversal
 * `.center`: Os itens são centralizados no eixo transversal
 * `.end`: Os itens ficam alinhados no final do eixo transversal
 
-![align-itens](http://css-tricks.com/wp-content/uploads/2014/05/align-itens.svg)
+![align-itens](http://css-tricks.com/wp-content/uploads/2014/05/align-items.svg)
 
 *Para centralizar os itens nos dois eixos, pode se usar a classe `.center-center`*
 
