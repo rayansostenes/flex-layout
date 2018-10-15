@@ -16,11 +16,11 @@ Propriedades do Container
 -------------------------
 ![Container](http://css-tricks.com/wp-content/uploads/2014/05/flex-container.svg)
 
-###Classe `.flex-layout`
+### Classe `.flex-layout`
 Essa classe define um flex container, por padrão é definido como `block` mas caso se adicione a classe `.inline`, ele será definido como um elemento `inline`.
 *Note que a classe `.flex-layout` por si só não tem nenhum efeito, você deve definir também a direção do fluxo, como descrito abaixo.*
 
-###flex-direction
+### flex-direction
 Estabelece como os elementos serão exibidos dentro do container, e define o eixo principal
 deste. Adicione opções de classes à seguir:
 
@@ -32,12 +32,12 @@ deste. Adicione opções de classes à seguir:
 ![Flex-Direction](http://css-tricks.com/wp-content/uploads/2014/05/flex-direction1.svg)
 
 
-###flex-wrap
+### flex-wrap
 Por padrão, os itens dentro de um flex container vão tentar se acondicionar em uma unica linha. Para alterar este comportamento e permitir que os itens se acondicionem em varias linhas adicione as classes `.wrap` ou `.wrap-reverse` no seu container.
 
 ![flex-wrap](http://css-tricks.com/wp-content/uploads/2014/05/flex-wrap.svg)
 
-###justify-content
+### justify-content
 Essa propriedade define o alinhamento ao longo do eixo principal. Ajuda a distribuir o espaço extra quando os itens não são flexíveis. Use uma das classes a seguir definir o alinhamento.
 
 * `.start-justified`: (padrão) Os itens são alinhados no começo da linha *(Não é necessario adicionar esta classe)*
@@ -50,7 +50,7 @@ Essa propriedade define o alinhamento ao longo do eixo principal. Ajuda a distri
 
 *Note que na classe `.around-justified` visualmente os espaços não são iguais, desde que todos os itens tem espaços iguais em todos os lados, logo os espaços das borda são metade dos espaços entre os itens.*
 
-###align-items
+### align-items
 
 Essa propriedade define como os itens serão alinhados no eixo transversal do seu container. Por padrão os itens se alongam para preencher o container. Use as classes a seguir para definir um alinhamento alternativo.
 
